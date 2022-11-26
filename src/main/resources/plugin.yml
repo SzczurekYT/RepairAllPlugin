@@ -1,0 +1,14 @@
+name: Simplerepairall
+version: '${project.version}'
+main: yt.szczurek.simplerepairall.Simplerepairall
+api-version: 1.13
+authors: [ Burzowy_Szczurek ]
+commands:
+  repairall:
+    aliases:
+      - ra
+    description: "Repairs all items in you inventory"
+    permission: "simplerepairall.repairall"
+permissions:
+  simplerepairall.repairall:
+    default: false
